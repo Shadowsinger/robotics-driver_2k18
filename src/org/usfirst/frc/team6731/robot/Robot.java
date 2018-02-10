@@ -9,6 +9,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 import org.usfirst.frc.team6731.robot.commands.ExampleCommand;
+import org.usfirst.frc.team6731.robot.subsystems.Drivetrain;
 import org.usfirst.frc.team6731.robot.subsystems.ExampleSubsystem;
 
 /**
@@ -20,7 +21,7 @@ import org.usfirst.frc.team6731.robot.subsystems.ExampleSubsystem;
  */
 public class Robot extends IterativeRobot {
 
-	public static final ExampleSubsystem exampleSubsystem = new ExampleSubsystem();
+	public static final Drivetrain drivtrain = new Drivetrain();
 	public static OI oi;
 
 	Command autonomousCommand;
@@ -37,7 +38,8 @@ public class Robot extends IterativeRobot {
 		// chooser.addObject("My Auto", new MyAutoCommand());
 		SmartDashboard.putData("Auto mode", chooser);
 	}
-
+	
+	
 	/**
 	 * This function is called once each time the robot enters Disabled mode.
 	 * You can use it to reset any subsystem information you want to clear when

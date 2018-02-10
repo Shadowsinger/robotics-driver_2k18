@@ -14,7 +14,7 @@ import edu.wpi.first.wpilibj.Joystick.AxisType;
 /**
  *
  */
-public class driveTrain extends Subsystem {
+public class Drivetrain extends Subsystem {
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
