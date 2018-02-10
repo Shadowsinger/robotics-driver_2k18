@@ -1,1 +1,1 @@
-Just chuck all these into the src directory the FRC plugin creates in Eclipse
+Just chuck all these into the Robo project directory in eclipse
