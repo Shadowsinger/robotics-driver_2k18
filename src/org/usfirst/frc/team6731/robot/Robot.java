@@ -11,7 +11,6 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 import org.usfirst.frc.team6731.robot.commands.EmptyAuto;
 import org.usfirst.frc.team6731.robot.subsystems.Drivetrain;
-import org.usfirst.frc.team6731.robot.subsystems.ExampleSubsystem;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -35,8 +34,8 @@ public class Robot extends IterativeRobot {
 	@Override
 	public void robotInit() {
 		oi = new OI();
-		chooser.addDefault("Default Auto", new EmptyAuto());
 		// chooser.addObject("My Auto", new MyAutoCommand());
+		chooser.addDefault("Default Auto", new EmptyAuto());
 		SmartDashboard.putData("Auto mode", chooser);
 	}
 		

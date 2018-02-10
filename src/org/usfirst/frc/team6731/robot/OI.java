@@ -3,7 +3,6 @@ package org.usfirst.frc.team6731.robot;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
 
-import org.usfirst.frc.team6731.robot.commands.ExampleCommand;
 
 /**
  * This class is the glue that binds the controls on the physical operator
